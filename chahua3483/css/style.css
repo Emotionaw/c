@@ -662,3 +662,33 @@ img{max-width:100%;}
 .next {
     right: 10px;
 }
+.rslides li div.slider-info p,
+.rslides li div.slider-info span {
+    font-family: SimHei, sans-serif;
+    font-weight: bold;
+}
+.content p {
+    font-family: SimHei, sans-serif;
+    font-weight: bold;
+}
+.services-grids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.services-grid {
+    width: 30%;
+    margin-bottom: 20px;
+}
+/* 天气信息显示区域样式 */
+#天一阁-weather,
+#雪窦山-weather,
+#四明山-weather,
+#东钱湖-weather,
+#南塘老街-weather,
+#老外滩-weather {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
