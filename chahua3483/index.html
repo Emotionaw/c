@@ -15,6 +15,21 @@
 			        speed: 600
 			      });
 			});
+				// 定义 plusSlides 函数
+				function plusSlides(n) {
+		var $rslides = $('.rslides');
+		var currentIndex = $rslides.find('li:visible').index();
+		var newIndex = currentIndex + n;
+		var totalSlides = $rslides.find('li').length;
+
+		if (newIndex < 0) {
+			newIndex = totalSlides - 1;
+		} else if (newIndex >= totalSlides) {
+			newIndex = 0;
+		}
+
+		$rslides.find('li').eq(newIndex).fadeIn().siblings().fadeOut();
+		}
 		  </script>
 		  
 	<body>
